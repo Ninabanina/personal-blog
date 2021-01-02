@@ -1,1 +1,11 @@
-@import url(/resources/css/base/font.css);
+
+/* Base  */
+@import url(/resources/css/base/color.css);
+@import url(/resources/css/base/type.css);
+
+/* Components */
+@import url(/resources/css/components/nav.css);
+
+/* Pages */
+@import url(/resources/css/pages/blog-listing.css);
+@import url(/resources/css/pages/blog-details.css);

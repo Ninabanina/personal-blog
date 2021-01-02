@@ -1,0 +1,26 @@
+.blog-listing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header"
+      "cards cards cards"
+      "subscribe subscribe subscribe"
+      "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.cards {
+    grid-area: cards;
+}
+
+.subscribe {
+    grid-area: subscribe;
+}
+
+.footer {
+    grid-area: footer;
+}

@@ -1,9 +1,18 @@
 @import url("https://use.typekit.net/ryv2twm.css");
 
-
 html,
 button {
     font-family: "acumin-pro", sans-serif;
+    color: var(--black);
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
 }
 
 /* Standardise headings */
