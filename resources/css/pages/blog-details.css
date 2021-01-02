@@ -10,6 +10,9 @@
       "related related related"
       "subscribe subscribe subscribe"
       "footer footer footer";
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem 2rem;
 }
 
 .header {

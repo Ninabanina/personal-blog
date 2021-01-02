@@ -1,10 +1,10 @@
 @import url("https://use.typekit.net/ryv2twm.css");
 
-html,
-button {
+html {
     font-family: "acumin-pro", sans-serif;
     color: var(--black);
     font-weight: 400;
+    font-size: 18px;
 }
 
 .bold {
