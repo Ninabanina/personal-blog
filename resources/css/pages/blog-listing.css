@@ -1,29 +1,11 @@
 .blog-listing-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: 
-      "header header header"
-      "cards cards cards"
-      "subscribe subscribe subscribe"
-      "footer footer footer";
     max-width: 1200px;
     margin: auto;
-    padding: 1rem 2rem;
+    padding: 0.5rem;
 }
 
-.header {
-    grid-area: header;
-}
-
-.cards {
-    grid-area: cards;
-}
-
-.subscribe {
-    grid-area: subscribe;
-}
-
-.footer {
-    grid-area: footer;
+@media screen and (min-width: 480px) {
+    .blog-listing-container {
+        padding: 1rem 2rem;
+    }
 }

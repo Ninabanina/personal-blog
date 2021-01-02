@@ -1,6 +1,8 @@
 :root {
     --background-pink: #f6eeea;
     --black: #000;
+    --light-grey: #bbb;
+    --light-orange: #fd885d;
 }
 
 html {

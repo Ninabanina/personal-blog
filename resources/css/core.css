@@ -8,6 +8,7 @@
 /* Components */
 @import url(/resources/css/components/nav.css);
 @import url(/resources/css/components/header.css);
+@import url(/resources/css/components/cards.css);
 
 /* Pages */
 @import url(/resources/css/pages/blog-listing.css);
