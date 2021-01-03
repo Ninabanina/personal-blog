@@ -21,7 +21,7 @@
 
 .author-title {
     font-size: 16px;
-    color: var(--light-grey);
+    color: var(--black);
     margin: 0.5rem 0;
 }
 
@@ -42,7 +42,7 @@
 
 .author-job {
     font-size: 16px;
-    color: var(--light-grey);
+    color: var(--black);
     margin: 0;
 }
 
