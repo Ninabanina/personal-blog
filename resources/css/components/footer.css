@@ -30,6 +30,10 @@
     margin: 1rem;
 }
 
+.hidden {
+    color: transparent;
+}
+
 @media screen and (min-width: 480px) {
     .subscribe-form {
         flex-direction: row;

@@ -5,11 +5,8 @@
     margin: 1rem;
 }
 
-.logo {
-    font-size: 28px;
-}
-
 .logo a {
+    font-size: 28px;
     text-decoration: none;
 }
 

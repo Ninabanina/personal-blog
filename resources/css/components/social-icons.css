@@ -1,14 +1,17 @@
 .social-icons {
-    display: flex;
+    display: grid;
     justify-content: center;
     padding: 0;
+    grid-template-columns: repeat(4, 1fr);
+    width: 200px;
+    margin: 0.5rem auto;
 }
 
 .social-icons li{
     display: inline-block;
     width: 25px;
     height: 25px;
-    margin: 0.5rem;
+    margin: auto;
 }
 
 .social-icons a {
