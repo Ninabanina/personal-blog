@@ -1,19 +1,19 @@
 
 /* Base  */
-@import url(resources/css/base/color.css);
-@import url(resources/css/base/type.css);
-@import url(resources/css/base/link.css);
-@import url(resources/css/base/layout.css);
+@import url(./base/color.css);
+@import url(./base/type.css);
+@import url(./base/link.css);
+@import url(./base/layout.css);
 
 /* Components */
-@import url(resources/css/components/nav.css);
-@import url(resources/css/components/header.css);
-@import url(resources/css/components/cards.css);
-@import url(resources/css/components/footer.css);
-@import url(resources/css/components/social-icons.css);
-@import url(resources/css/components/form.css);
-@import url(resources/css/components/button.css);
-@import url(resources/css/components/author-info.css);
-
+@import url(./components/nav.css);
+@import url(./components/header.css);
+@import url(./components/cards.css);
+@import url(./components/footer.css);
+@import url(./components/social-icons.css);
+@import url(./components/form.css);
+@import url(./components/button.css);
+@import url(./components/author-info.css);
+    
 /* Pages */
-@import url(resources/css/pages/blog-details.css);
+@import url(./pages/blog-details.css);
