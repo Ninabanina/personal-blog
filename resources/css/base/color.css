@@ -3,6 +3,8 @@
     --black: #000;
     --light-grey: #bbb;
     --light-orange: #fd885d;
+    --grey: #272727;
+    --border-grey: rgba(0,0,0,.12);
 }
 
 html {

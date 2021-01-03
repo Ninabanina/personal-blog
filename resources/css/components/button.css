@@ -1,0 +1,23 @@
+.btn-primay {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 1em 2.5em;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--grey);
+    border: 1px solid var(--grey);
+    font-size: 15px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.btn-primay:hover {
+    opacity: 0.8;
+}
+
+
+.btn-primay:focus {
+    outline: 2px solid var(--black);
+}

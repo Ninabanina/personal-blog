@@ -12,3 +12,7 @@
 .logo a {
     text-decoration: none;
 }
+
+.logo a:hover {
+    opacity: 1;
+}
