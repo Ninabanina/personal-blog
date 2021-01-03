@@ -33,7 +33,7 @@
 }
 
 .main-content-header h1 {
-    margin: 0;
+    margin: 0 0 1rem;
 }
 
 .main-content-header .social-icons {
@@ -63,6 +63,11 @@
 
 .main-content-body {
     margin: 3rem 0 6rem;
+}
+
+.share-to {
+    text-align: center;
+    margin: 5rem 0 0;
 }
 
 .related {
