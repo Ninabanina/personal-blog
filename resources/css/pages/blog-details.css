@@ -23,6 +23,15 @@
     text-align: center;
 }
 
+.main-content-header::after {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: var(--break-line-grey);
+    margin: 1.5rem auto;
+}
+
 .main-content-header h1 {
     margin: 0;
 }
@@ -53,12 +62,12 @@
 }
 
 .main-content-body {
-    margin: 2rem 0;
+    margin: 3rem 0 6rem;
 }
 
 .related {
     margin: 1rem 0;
-    padding: 5rem 1rem;
+    padding: 5rem 1rem 1rem;
     border-top: 1px solid var(--black);
     text-align: center;
 }
@@ -70,6 +79,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .main-content {
+        margin: 3rem 1rem 7rem;
+    }
+
     .main-content h1 {
         font-size: 48px;
     }

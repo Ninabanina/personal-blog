@@ -7,6 +7,12 @@
     border-top: 1px solid var(--black);
 }
 
+.author-info h1 {
+    font-size: 26px;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
 .author-info img {
     width: 80px;
     height: 80px;
