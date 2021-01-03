@@ -2,8 +2,8 @@
 /* Base  */
 @import url(/resources/css/base/color.css);
 @import url(/resources/css/base/type.css);
-@import url(/resources/css/base/list.css);
 @import url(/resources/css/base/link.css);
+@import url(/resources/css/base/layout.css);
 
 /* Components */
 @import url(/resources/css/components/nav.css);
@@ -13,7 +13,7 @@
 @import url(/resources/css/components/social-icons.css);
 @import url(/resources/css/components/form.css);
 @import url(/resources/css/components/button.css);
+@import url(/resources/css/components/author-info.css);
 
 /* Pages */
-@import url(/resources/css/pages/blog-listing.css);
 @import url(/resources/css/pages/blog-details.css);

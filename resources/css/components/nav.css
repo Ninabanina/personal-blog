@@ -5,3 +5,13 @@ nav a {
 .current {
     text-decoration: underline;
 }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+}

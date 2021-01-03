@@ -1,55 +1,80 @@
-
-.blog-details-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: 
-      "header header header"
-      "main-content main-content main-content"
-      "author-info author-info author-info"
-      "related related related"
-      "subscribe subscribe subscribe"
-      "footer footer footer";
-    max-width: 1200px;
-    margin: auto;
-    padding: 1rem 2rem;
-}
-
-.header {
-    grid-area: header;
-}
-
 .main-content {
-    grid-area: main-content;
+    margin: 2rem 1rem 5rem;
 }
 
-.author-info {
-    grid-area: author-info;
+.main-content h1 {
+    line-height: 1.2;
+    font-size: 38px;
 }
 
-.related {
-    grid-area: related;
+.main-content h2 {
+    line-height: 1.2;
+    font-size: 30px;
 }
 
-.subscribe {
-    grid-area: subscribe;
+.main-content h3 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 20px;
 }
 
-.footer {
-    grid-area: footer;
+.main-content-header {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.main-content-header h1 {
+    margin: 0;
+}
+
+.main-content-header .social-icons {
+    margin: 2rem;
+}
+
+.main-content-time {
+    margin: 0 0 0.5rem;
+    color: var(--light-grey);
+}
+
+.main-content-image {
+    position: relative;
+    height: 400px;
+}
+
+.main-content-image img{
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.main-content-body {
+    margin: 2rem 0;
 }
 
 @media screen and (min-width: 768px) {
-    .blog-details-container {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: auto;
-        grid-template-areas: 
-          "header header header header header"
-          "main-content main-content main-content author-info author-info"
-          "related related related related related"
-          "subscribe subscribe subscribe subscribe subscribe"
-          "footer footer footer footer footer";
+    .main-content h1 {
+        font-size: 48px;
     }
-    
+
+    .main-content h2 {
+        font-size: 36px;
+    }
+
+    .main-content h3 {
+        font-size: 24px;
+    }
+
+    .main-content-image {
+        height: 500px;
+    }
+
+    .main-content-body {
+        max-width: 700px;
+        margin: auto;
+    }
 }

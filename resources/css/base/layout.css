@@ -1,11 +1,13 @@
-.blog-listing-container {
+.container {
     max-width: 1200px;
     margin: auto;
     padding: 0.5rem;
 }
 
 @media screen and (min-width: 480px) {
-    .blog-listing-container {
-        padding: 1rem 2rem;
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0.5rem;
     }
 }
