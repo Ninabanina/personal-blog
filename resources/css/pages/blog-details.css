@@ -56,6 +56,19 @@
     margin: 2rem 0;
 }
 
+.related {
+    margin: 1rem 0;
+    padding: 5rem 1rem;
+    border-top: 1px solid var(--black);
+    text-align: center;
+}
+
+.related h1 {
+    font-size: 26px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
 @media screen and (min-width: 768px) {
     .main-content h1 {
         font-size: 48px;
@@ -76,5 +89,15 @@
     .main-content-body {
         max-width: 700px;
         margin: auto;
+    }
+
+    .related .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .related .cards {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
